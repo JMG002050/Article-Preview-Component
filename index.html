@@ -9,33 +9,41 @@
   <title>Frontend Mentor | Article preview component</title>
 
   <link rel="stylesheet" href="style.css"/>
+
+  <!-- FONTS HERE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main>
-    <article>
+  <main class="main-sec">
+    <article class="presentation">
+        <img src="/resources/images/drawers.jpg" class="drawers" alt="Photo of furniture"/>
+        <div class="content">
+            <header class="title">
+            <h1>
+              Shift the overall look and feel by adding these wonderful touches to furniture in your home
+            </h1>
+          </header>
+          <p class="paragraph">
+              Ever been in a room and felt like something was missing? Perhaps 
+              it felt slightly bare and uninviting. I’ve got some simple tips 
+              to help you make any room feel complete.
+          </p>
 
-        <img src="/resources/images/drawers.jpg" class="drawers" width=100% alt="Photo of furniture"/>
-        <header class="title">
-          <h1>
-            Shift the overall look and feel by adding these wonderful touches to furniture in your home
-          </h1>
-        </header>
-        
-        <p class="paragraph">
-            Ever been in a room and felt like something was missing? Perhaps 
-            it felt slightly bare and uninviting. I’ve got some simple tips 
-            to help you make any room feel complete.
-        </p>
+          <div class="author">
+            <img src="/resources/images/avatar-michelle.jpg" alt="Photo of Michelle" class="Michelle"/>  
+            
+            <div class="avatar-michelle">
+              <p>Michelle Appleton</p>
+              <time datetime="2020-06-28">28 Jun 2020</time>
+            </div>
 
-        <div class="author">
-          <img src="/resources/images/avatar-michelle.jpg" alt="Photo of Michelle" class="Michelle"/>
-          <p>Michelle Appleton</p>
-          <time datetime="2020-06-28">28 Jun 2020</time>
-          <button class="share-btn">
-            <img src="/resources/images/icon-share.svg" alt="share"/>
-          </button> 
+            <button class="share-btn">
+              <img src="/resources/images/icon-share.svg" alt="share"/>
+            </button> 
+          </div>
         </div>
-
     </article>
   </main>
   <footer class="attribution">
