@@ -2,53 +2,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Article preview component</title>
 
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 
-  <!-- FONTS HERE -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <main class="main-sec">
     <article class="presentation">
-        <img src="/resources/images/drawers.jpg" class="drawers" alt="Photo of furniture"/>
-        <div class="content">
-            <header class="title">
-            <h1>
-              Shift the overall look and feel by adding these wonderful touches to furniture in your home
-            </h1>
-          </header>
-          <p class="paragraph">
-              Ever been in a room and felt like something was missing? Perhaps 
-              it felt slightly bare and uninviting. I’ve got some simple tips 
-              to help you make any room feel complete.
-          </p>
+      <img 
+        src="/resources/images/drawers.jpg" 
+        class="drawers" 
+        alt="Photo of furniture"
+      />
+      
+      <div class="content">
+        <header class="title">
+          <h1>
+            Shift the overall look and feel by adding these wonderful touches to furniture in your home
+          </h1>
+        </header>
 
-          <div class="author">
-            <img src="/resources/images/avatar-michelle.jpg" alt="Photo of Michelle" class="Michelle"/>  
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps 
+          it felt slightly bare and uninviting. I’ve got some simple tips 
+          to help you make any room feel complete.
+        </p>
+
+        <div class="author">
+          <div class="author-info">
+            <img 
+              src="/resources/images/avatar-michelle.jpg" 
+              alt="Photo of Michelle" 
+              class="Michelle"
+            />  
             
             <div class="avatar-michelle">
               <p>Michelle Appleton</p>
               <time datetime="2020-06-28">28 Jun 2020</time>
             </div>
+          </div>
 
-            <button class="share-btn">
-              <img src="/resources/images/icon-share.svg" alt="share"/>
-            </button> 
+          <div class="share-menu">
+            <span>SHARE</span>
+            <img src="/resources/images/icon-facebook.svg" alt="Facebook">
+            <img src="/resources/images/icon-twitter.svg" alt="Twitter">
+            <img src="/resources/images/icon-pinterest.svg" alt="Pinterest">
+          </div>
+
+          <div class="share-wrapper">
+            <button class="share-btn" aria-label="Share article">
+              <img 
+                src="/resources/images/icon-share.svg"
+                alt=""
+                class="arrow-img"
+              />
+            </button>
           </div>
         </div>
+      </div>
     </article>
   </main>
+
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Jorge Martinez</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/JMG002050">Jorge Martinez</a>.
   </footer>
 </body>
 </html>
