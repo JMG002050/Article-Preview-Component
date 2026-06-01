@@ -51,6 +51,5 @@ Challenge provided by Frontend Mentor. Design credit belongs to Frontend Mentor.
 
 Jorge Martinez
 
-GitHub: https://github.com/yourusername
-Front-End Mentor Page: https://www.frontendmentor.io/profile/JMG002050
-
+* GitHub: https://github.com/yourusername
+* Front-End Mentor Page: https://www.frontendmentor.io/profile/JMG002050 
