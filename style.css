@@ -92,14 +92,14 @@
   border: none;
   cursor: pointer;
   position: relative;
-  z-index: 30;
+  z-index: 21;
 }
 
 .share-btn:hover {
   background-color: var(--Grayish-blue);
 }
 
-.share-btn a img {
+.share-btn img {
   width: 27px;
   height: 27px;
 }
@@ -112,6 +112,7 @@
 
 .share-menu {
   display: none;
+  position: absolute;
 }
 
 .share-menu.active {

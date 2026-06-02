@@ -8,9 +8,11 @@ shareBtn.addEventListener('click', () => {
     shareBtn.setAttribute("aria-expanded", isOpen);
 
     if (isOpen) {
-        firstShareLink.focus();
+    firstShareLink.focus();
     } else {
-        shareBtn.focus();
+    shareBtn.focus();
     }
 
 });
+
+
