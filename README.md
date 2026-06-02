@@ -5,7 +5,10 @@
 This project is a solution to the Frontend Mentor Article Preview Component challenge. The goal was to recreate the provided design as accurately as possible while ensuring responsiveness and interactive functionality.
 
 ## 🔗 Live Preview
-[https://jmg002050.github.io/Social-Media-Profile/](https://jmg002050.github.io/Article-Preview-Component/)
+[https://jmg002050.github.io/Article-Preview-Component/](https://jmg002050.github.io/Article-Preview-Component/)
+
+## 📸 Screenshot
+![my-preview](./resources/design/Preview.jpeg)
 
 ## Features
 
