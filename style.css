@@ -99,9 +99,15 @@
   background-color: var(--Grayish-blue);
 }
 
-.share-btn img {
+.share-btn a img {
   width: 27px;
   height: 27px;
+}
+
+.share-menu a:focus,
+.share-btn:focus {
+  outline: 2px solid white;
+  outline-offset: 4px;
 }
 
 .share-menu {

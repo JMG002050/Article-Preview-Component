@@ -54,13 +54,26 @@
 
           <div class="share-menu">
             <span>SHARE</span>
-            <img src="./resources/images/icon-facebook.svg" alt="Facebook">
-            <img src="./resources/images/icon-twitter.svg" alt="Twitter">
-            <img src="./resources/images/icon-pinterest.svg" alt="Pinterest">
+            <a href="#" aria-label="Share on Facebook">
+              <img src="./resources/images/icon-facebook.svg" alt="Facebook">
+            </a>
+            
+            <a href="#" arial-label="Share on Twitter">
+              <img src="./resources/images/icon-twitter.svg" alt="Twitter">
+            </a>
+
+            <a href="#" arial-label="Share on Pinterest">
+              <img src="./resources/images/icon-pinterest.svg" alt="Pinterest">
+            </a>
           </div>
 
           <div class="share-wrapper">
-            <button class="share-btn" aria-label="Share article">
+            <button 
+              class="share-btn" 
+              aria-label="Share article"
+              aria-expanded="false"
+              aria-controls="share-menu"
+            >
               <img 
                 src="./resources/images/icon-share.svg"
                 alt=""
