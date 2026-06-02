@@ -7,6 +7,9 @@ This project is a solution to the Frontend Mentor Article Preview Component chal
 ## 🔗 Live Preview
 [https://jmg002050.github.io/Social-Media-Profile/](https://jmg002050.github.io/Article-Preview-Component/)
 
+## 📸 Screenshot
+![my-preview](./resources/design/Preview.jpeg)
+
 ## Features
 
 * Responsive layout for mobile and desktop screens
